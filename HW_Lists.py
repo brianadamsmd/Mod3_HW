@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
 print("Assignment 3\n\n")
 
 
@@ -8,6 +12,7 @@ one_a = list(range(10))
 print(f"1.a: {one_a}")
 
 ##1b Add 3 to the 5th indexed element
+##I assumed this meant to add 3 to whatever value was in the 5th indexed position.
 one_a[5] += 3
 print(f"1.b: {one_a}")
 
@@ -16,6 +21,7 @@ one_c = [float(i) for i in one_a]
 print(f"1.c: {one_c}")
 
 ##1d Coerce the list to a set
+##I assumed that 1.c was temporary and I returned to using 1.a in this question for the remainder of this question.
 one_d = set(one_a)
 print(f"1.d: {one_d}")
 
@@ -154,6 +160,7 @@ four_b.append(type(0.39))
 print(f"4.e: {four_b}")
 
 ##4f exponentiate to the -10, ie: 4.d^-10,(hint: there might be an arithmetic operator to do so) round it to no decimal places, and append to list.
+##I assumed the question asked to take the the 0.39 number addd to the the list in 4.d and raise it to the -10 (ie 0.39^-10)
 four_b.append(round(four_b[1]**-10))
 print(f"4.f: {four_b}")
 
@@ -170,6 +177,7 @@ five_a = dict(enumerate(four_b))
 print(f"5.a: {five_a}")
 
 ##5b Add 300 and coerce it into a string
+##I continued using my list four_b where I had left off at the end for 4g. I continued to maipulate the list four_b for the rest of the assignment by just changing four_b to assign to new variables or to generate output.
 four_b.append(str(300))
 print(f"5.b: {four_b}")
 
@@ -196,3 +204,4 @@ print(f"5.g: {four_b}")
 ##5h append the type of three_setA to the list
 four_b.append(type(three_setA))
 print(f"5.h: {four_b}")
+
